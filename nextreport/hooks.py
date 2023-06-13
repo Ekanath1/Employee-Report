@@ -64,13 +64,13 @@ app_license = "MIT"
 # ------------
 
 # before_install = "nextreport.install.before_install"
-# after_install = "nextreport.install.after_install"
+after_install = "nextreport.nextreport.custom.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "nextreport.uninstall.before_uninstall"
-# after_uninstall = "nextreport.uninstall.after_uninstall"
+before_uninstall = "nextreport.nextreport.custom.before_uninstall"
+# after_uninstall = "nextreport.nextreport.custom.after_uninstall"
 
 # Desk Notifications
 # ------------------
